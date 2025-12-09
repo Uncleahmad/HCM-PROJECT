@@ -2654,7 +2654,7 @@ header {
 
 /* Follow Us Section */
 .follow-us-section {
-    background-color: #ea9010; 
+    background-color: #ea9010;
     text-align: center;
     padding: 80px 20px;
     margin-bottom: 50px;
@@ -2746,6 +2746,162 @@ header {
     font-size: 32px;
     font-weight: 600;
     color: #ffe0a3; /* Light yellow email color */
+}
+
+/* NewsRoom Section */
+
+/* ================================
+   HERO BACKGROUND (FULL SCREEN)
+================================ */
+.case-study-hero {
+    background-image: url('/images/casestudy1.jpg');  /* Change this */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 700px;
+    width: 100%;
+
+    position: relative;
+
+    /* Prevent overlay from reaching the header */
+    margin-top: 0;
+    padding-top: 120px; /* adjust if your header height is different */
+}
+
+/* ================================
+   RIGHT-SIDE CASE STUDY BOX
+================================ */
+.case-study-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-right: 100px;
+    padding-bottom: 100px;
+}
+
+.case-study-content h1 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+}
+
+.case-study-box {
+    background: #e69525;
+    width: 480px;
+    padding: 60px 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Icon */
+.case-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: white;
+    color: #e69525;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+/* Text styles */
+.case-study-box h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.case-study-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Remove overlay effect on header */
+header, .navbar {
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+/* Tabs and Item */
+
+/* Tabs */
+.case-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 12px;
+  margin-right: 12px;
+  gap: 15px;
+}
+
+.tab {
+  background: #e0e0e0;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background: #ea9010;
+  color: #fff;
+}
+
+.tab:hover {
+  background: #ea9010;
+  color: #fff;
+}
+
+/* Grid Layout */
+.case-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 90px;
+    color: white;
+}
+
+.case-card {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ea9010;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: .3s;
+}
+
+.case-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.case-body {
+    padding: 20px;
+}
+
+.case-tag {
+    background: #ffa726;
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
 }
 
 

@@ -38,6 +38,10 @@ class HcmProjectController extends Controller
     {
         return view('HcmProject.newsroom');
     }
+     public function casestudy()
+    {
+        return view('HcmProject.casestudy');
+    }
 
     /**
      * Show the form for creating a new resource.

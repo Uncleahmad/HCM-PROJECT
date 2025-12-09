@@ -32,8 +32,8 @@
             <li class="dropdown">
                 <a href="#">INSIGHTS <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-insight">
-                        <li><a href="{{ route('newsroom') }}">CASE OF STUDY</a></li>
-                        <li><a href="{{ route('newsroom') }}">NEWS ROOM</a></li>
+                        <li><a href="{{ route('casestudy') }}">CASE OF STUDY</a></li>
+                        <li><a href="{{ route('newsroom') }}">NEWSROOM</a></li>
                     </ul>
             </li>
         </ul>
