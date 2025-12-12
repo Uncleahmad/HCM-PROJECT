@@ -255,58 +255,58 @@
     </section>
 
 
-    {{-- footer --}}
+     {{-- footer --}}
 
     <footer class="footer">
-        <div class="footer-container">
+    <div class="footer-container">
 
-        <!-- Logo Section -->
-        <div class="footer-logo">
-            <a href="{{ route('home') }}">
-                <img src=" {{ asset('images/hcmlogo.png') }}" alt="HCM Logo" />
-            </a>
-        </div>
+      <!-- Logo Section -->
+      <div class="footer-logo">
+        <a href="{{ route('home') }}">
+            <img src=" {{ asset('images/hcmlogo.png') }}" alt="HCM Logo" />
+        </a>
+      </div>
 
-        <!-- Contact Info -->
-        <div class="footer-contact">
-            <h3>Contact Info</h3>
-            <ul>
-            <li class="fa-solid fa-phone"></li>  +234-707-322-2220<br>
-            <li class="fa-solid fa-envelope"></li>  info@hcm.ng<br>
-            <li class="fa-solid fa-globe"></li>  www.hcm.ng<br>
-            </ul>
-            <div class="footer-social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-x-twitter"></i></a>
-            </div>
+      <!-- Contact Info -->
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <ul>
+          <li class="fa-solid fa-phone"></li>  +234-707-322-2220<br>
+          <li class="fa-solid fa-envelope"></li>  info@hcm.ng<br>
+          <li class="fa-solid fa-globe"></li>  www.hcm.ng<br>
+        </ul>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/hcmnaija"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/@HumanCapitalManagers"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F96593692"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/hcmnigeria"><i class="fab fa-x-twitter"></i></a>
         </div>
+      </div>
 
-        <!-- Explore More Page -->
-        <div class="footer-links">
-            <h3>Explore More Page</h3>
-            <ul>
-            <li><a href="#">Early Career and Internship</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Newsroom</a></li>
-            </ul>
-        </div>
+      <!-- Explore More Page -->
+      <div class="footer-links">
+        <h3>Explore More Page</h3>
+        <ul>
+          <li><a href="{{ route('internship') }}">Early Career and Internship</a></li>
+          <li><a href="{{ route('careers') }}">Careers</a></li>
+          <li><a href="{{ route('team') }}">Our Team</a></li>
+          <li><a href="{{ route('about') }}">About Us</a></li>
+          <li><a href="{{ route('newsroom') }}">Newsroom</a></li>
+        </ul>
+      </div>
 
-        <!-- Location Section -->
-        <div class="footer-location">
-            <h3>Our Location</h3>
-            <img src="{{ asset('images/map.png') }}" alt="Nigeria Map" />
-        </div>
-        </div>
+      <!-- Location Section -->
+      <div class="footer-location">
+        <h3>Our Location</h3>
+        <img src="{{ asset('images/map.png') }}" alt="Nigeria Map" />
+      </div>
+    </div>
 
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-        <hr />
-        <p>© 2025 HCM LIMITED - All rights reserved</p>
-        </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <hr />
+      <p>© 2025 HCM LIMITED - All rights reserved</p>
+    </div>
   </footer>
 
 </body>

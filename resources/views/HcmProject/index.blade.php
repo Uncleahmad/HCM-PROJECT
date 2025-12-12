@@ -326,10 +326,10 @@
           <li class="fa-solid fa-globe"></li>  www.hcm.ng<br>
         </ul>
         <div class="footer-social">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.facebook.com/hcmnaija"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/@HumanCapitalManagers"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F96593692"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/hcmnigeria"><i class="fab fa-x-twitter"></i></a>
         </div>
       </div>
 
@@ -337,11 +337,11 @@
       <div class="footer-links">
         <h3>Explore More Page</h3>
         <ul>
-          <li><a href="#">Early Career and Internship</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Newsroom</a></li>
+          <li><a href="{{ route('internship') }}">Early Career and Internship</a></li>
+          <li><a href="{{ route('careers') }}">Careers</a></li>
+          <li><a href="{{ route('team') }}">Our Team</a></li>
+          <li><a href="{{ route('about') }}">About Us</a></li>
+          <li><a href="{{ route('newsroom') }}">Newsroom</a></li>
         </ul>
       </div>
 
